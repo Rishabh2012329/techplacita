@@ -13,3 +13,16 @@ addEventListener('scroll',()=>{
     nav[0].style.webkitAnimationDuration="none"
     }
 })
+  addEventListener('load',()=>{
+      var x= document.getElementById('st')
+    console.log(x)
+    x.addEventListener('animationend',()=>{
+        var sty=document.getElementById('stay');
+        console.log(sty)
+        sty.style.display="flex";
+        sty.style.animationName="op";
+        sty.style.webkitAnimationDuration="1s"
+})
+;
+  })  
+  
