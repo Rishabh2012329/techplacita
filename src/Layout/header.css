@@ -5,6 +5,13 @@
     align-items: center;
     animation:lef 2s;
 }
+
+.carousel-inner div{
+    top:0;
+    position: absolute;
+}
+
+
 #cb{
     top:-130px;
     position:absolute;
@@ -16,22 +23,29 @@
     from{top:-500px;}
     to{top:-90px;}
 }
+
 @keyframes lef{
     from{right:-1000px}
     to{right:0}
 }
+
 #butt{
     display: none;
 }
+
+
 #carouselExampleIndicators:hover #butt{
     display: flex;
+}
+
+#nav{
+    margin:10px;
 }
 .sticky{
     position: fixed;
     top:0;
     width:100%;
 }
-
 
 #textbox{
     font-size: 25px;
@@ -52,10 +66,6 @@
         font-size: 10px;
         top:-60px;
         position: absolute;
-    }
-    
-    #med{
-        font-size: 10px;
     }
     #box{
 
@@ -102,4 +112,8 @@
 @keyframes top{
     from{top:-45px}
     to{top:0}
+}
+@keyframes op{
+    from{bottom:0;opacity: 0}
+    to{bottom: 30px;opacity: 1}
 }
