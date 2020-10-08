@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/techplacita/static/css/main.9420f891.chunk.css",
-    "main.js": "/techplacita/static/js/main.232026b3.chunk.js",
-    "main.js.map": "/techplacita/static/js/main.232026b3.chunk.js.map",
+    "main.js": "/techplacita/static/js/main.ec98f02c.chunk.js",
+    "main.js.map": "/techplacita/static/js/main.ec98f02c.chunk.js.map",
     "runtime-main.js": "/techplacita/static/js/runtime-main.f429f023.js",
     "runtime-main.js.map": "/techplacita/static/js/runtime-main.f429f023.js.map",
     "static/js/2.d2027444.chunk.js": "/techplacita/static/js/2.d2027444.chunk.js",
     "static/js/2.d2027444.chunk.js.map": "/techplacita/static/js/2.d2027444.chunk.js.map",
     "index.html": "/techplacita/index.html",
-    "precache-manifest.a5a0cfb4f0753da57b808eb6024e85ab.js": "/techplacita/precache-manifest.a5a0cfb4f0753da57b808eb6024e85ab.js",
+    "precache-manifest.94e6445657219a78aed1e01d2ee7b061.js": "/techplacita/precache-manifest.94e6445657219a78aed1e01d2ee7b061.js",
     "service-worker.js": "/techplacita/service-worker.js",
     "static/css/main.9420f891.chunk.css.map": "/techplacita/static/css/main.9420f891.chunk.css.map",
     "static/js/2.d2027444.chunk.js.LICENSE.txt": "/techplacita/static/js/2.d2027444.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f429f023.js",
     "static/js/2.d2027444.chunk.js",
     "static/css/main.9420f891.chunk.css",
-    "static/js/main.232026b3.chunk.js"
+    "static/js/main.ec98f02c.chunk.js"
   ]
 }
