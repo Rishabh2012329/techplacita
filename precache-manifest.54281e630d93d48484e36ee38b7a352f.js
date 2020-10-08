@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "154b6d3520995afa2d230e8c50e13a25",
+    "revision": "c0019b6495009d5120345a2658c7da41",
     "url": "/techplacita/index.html"
   },
   {
-    "revision": "9c3493aae5deaeff5ecc",
+    "revision": "937f1b2f94c27ba553cf",
     "url": "/techplacita/static/css/main.9420f891.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/techplacita/static/js/2.d2027444.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9c3493aae5deaeff5ecc",
-    "url": "/techplacita/static/js/main.b11c1c83.chunk.js"
+    "revision": "937f1b2f94c27ba553cf",
+    "url": "/techplacita/static/js/main.ccf82b8a.chunk.js"
   },
   {
     "revision": "edf7226390f728d05a46",

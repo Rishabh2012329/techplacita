@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/techplacita/precache-manifest.bdf1e7e53e1408edff9df29cfbfabe1e.js"
+  "/techplacita/precache-manifest.54281e630d93d48484e36ee38b7a352f.js"
 );
 
 self.addEventListener('message', (event) => {
