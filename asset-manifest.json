@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/techplacita/static/css/main.21bfb1b7.chunk.css",
-    "main.js": "/techplacita/static/js/main.5a012ebe.chunk.js",
-    "main.js.map": "/techplacita/static/js/main.5a012ebe.chunk.js.map",
+    "main.css": "/techplacita/static/css/main.935a432b.chunk.css",
+    "main.js": "/techplacita/static/js/main.d1c63230.chunk.js",
+    "main.js.map": "/techplacita/static/js/main.d1c63230.chunk.js.map",
     "runtime-main.js": "/techplacita/static/js/runtime-main.f429f023.js",
     "runtime-main.js.map": "/techplacita/static/js/runtime-main.f429f023.js.map",
     "static/js/2.0500976b.chunk.js": "/techplacita/static/js/2.0500976b.chunk.js",
     "static/js/2.0500976b.chunk.js.map": "/techplacita/static/js/2.0500976b.chunk.js.map",
     "index.html": "/techplacita/index.html",
-    "precache-manifest.86bc447cfc9c547885d0c41e6eebc46f.js": "/techplacita/precache-manifest.86bc447cfc9c547885d0c41e6eebc46f.js",
+    "precache-manifest.a825fc554ad1254af8f954d9197614bc.js": "/techplacita/precache-manifest.a825fc554ad1254af8f954d9197614bc.js",
     "service-worker.js": "/techplacita/service-worker.js",
-    "static/css/main.21bfb1b7.chunk.css.map": "/techplacita/static/css/main.21bfb1b7.chunk.css.map",
+    "static/css/main.935a432b.chunk.css.map": "/techplacita/static/css/main.935a432b.chunk.css.map",
     "static/js/2.0500976b.chunk.js.LICENSE.txt": "/techplacita/static/js/2.0500976b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f429f023.js",
     "static/js/2.0500976b.chunk.js",
-    "static/css/main.21bfb1b7.chunk.css",
-    "static/js/main.5a012ebe.chunk.js"
+    "static/css/main.935a432b.chunk.css",
+    "static/js/main.d1c63230.chunk.js"
   ]
 }
