@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "599773dfa5c313302d44a17d7ddb0422",
+    "revision": "766de696ef4998ed0e33b28cf55ddc00",
     "url": "/techplacita/index.html"
   },
   {
-    "revision": "ff299552d4a7ba45f3c9",
-    "url": "/techplacita/static/css/main.b30bd575.chunk.css"
+    "revision": "b1b2b8fb07fb91f4a675",
+    "url": "/techplacita/static/css/main.b52089c1.chunk.css"
   },
   {
     "revision": "d2cf29beb1f2e7b3e5e3",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/techplacita/static/js/2.0500976b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ff299552d4a7ba45f3c9",
-    "url": "/techplacita/static/js/main.baa129a4.chunk.js"
+    "revision": "b1b2b8fb07fb91f4a675",
+    "url": "/techplacita/static/js/main.5c45d956.chunk.js"
   },
   {
     "revision": "edf7226390f728d05a46",
