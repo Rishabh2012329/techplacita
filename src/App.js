@@ -2,14 +2,41 @@ import React from 'react';
 import Header from './Layout/Header'
 import NavBar from './Layout/NavBar'
 import Home from './Components/Home'
+import Footer from './Layout/Footer'
+import Contact from './Components/Contact'
+import Aboutus from './Components/Aboutus'
+import Homec from './Components/Homec'
+import config from 'react-reveal/globals';
 
+
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+
+config({ ssrFadeout: true });
 function App() {
   return (
-    <div className="App">
-      <NavBar/>
-      <Header/>
-      <Home/>
-    </div>
+  	<Router>
+    	<div className="App" >
+	     	<NavBar/>
+	     	<Header/>
+	 <Switch>
+          <Route path="/techplacita/aboutus">
+            <Aboutus />
+          </Route>
+          <Route path="/techplacita/Contact">
+            <Contact />
+          </Route>
+          <Route path="/techplacita">
+            <Homec />
+          </Route>
+        </Switch>
+
+	    </div>
+    </Router>
   );
 }
 

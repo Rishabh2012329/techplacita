@@ -1,10 +1,13 @@
 .carousel-inner{
     width:100%;
-    height:500px;
+    height:650px;
     display: flex;
     align-items: center;
     animation:lef 2s;
+ 
+
 }
+
 
 .carousel-inner div{
     top:0;
@@ -18,7 +21,9 @@
     animation: ease-in 0.2s ;
     animation: move 2s;
 }
-
+#stay{
+    font-size:50px;
+}
 @keyframes move{
     from{top:-500px;}
     to{top:-90px;}
@@ -53,12 +58,24 @@
 #disbox{
     font-size:18px;
 }
-@media only screen and (max-width: 600px) {
+#smb{
+    width: 280px
+}
+@media screen and (max-width: 600px) {
+    #stay{
+        font-size:50px;
+    }
+
+    #smb{
+    width: 340px;
+   }
     .carousel-inner{
         width:100%;
         height:300px;
         display: flex;
     align-items: center;
+
+    
     }
     #cb{
         width:80%;
@@ -116,4 +133,65 @@
 @keyframes op{
     from{bottom:0;opacity: 0}
     to{bottom: 30px;opacity: 1}
+}
+
+#imtext{
+    display: none;
+}
+
+#hov:hover div{
+        top:0;
+        bottom:0;
+        position: absolute;
+        background-color: rgba(0,0,0,0.3);
+        height:100%;
+        animation-name: bt;
+        animation-duration: 0.5s;
+    
+}
+#hover img{
+    height:430px;
+    max-width:350px
+}
+#hov:hover img{
+    height:460px;
+    max-width:500px;
+}
+#hov:hover div span{
+        bottom:100px;
+        left:100px;
+        position: absolute;
+        text-align: center;
+        z-index: 3;
+        animation-name: bt;
+        animation-duration: 0.3s;
+}
+#hov:hover #imtext{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom:30px;
+    animation-name: bt;
+    animation-duration: 0.5s;
+
+}
+
+@keyframes bt{
+    from {bottom:-2px;opacity: 0}
+    to{bottom:100px;opacity: 1}
+}
+
+#nav{
+    cursor:pointer;
+}
+#ink{
+    outline: none !important;
+}
+#Link{
+    outline: none !important;
+    text-decoration: none !important;
+    color:white !important;
+    width: 100% !important;
+    text-align: center;
 }
