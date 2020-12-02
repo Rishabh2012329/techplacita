@@ -5,7 +5,7 @@ addEventListener('scroll',()=>{
     var currentScrollPos = window.pageYOffset;
     nav[0].style.backgroundColor="#343a40"
     if(currentScrollPos>60){
-        nav[0].style.backgroundColor="#343a40"
+        nav[0].style.backgroundColor="white"
         nav[0].style.animationName="top"
         nav[0].style.webkitAnimationDuration="0.3s"
         nav[0].classList.add("sticky")
