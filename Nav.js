@@ -7,6 +7,7 @@ addEventListener('scroll',function con(){
         nav[0].style.backgroundColor="#343a40"
         nav[0].style.animationName="top"
         nav[0].style.webkitAnimationDuration="0.3s"
+        console.log(nav[0])
         nav[0].classList.add("sticky")
     }
     else{
