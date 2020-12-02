@@ -8,6 +8,7 @@ addEventListener('scroll',()=>{
         nav[0].style.backgroundColor="#343a40"
         nav[0].style.animationName="top"
         nav[0].style.webkitAnimationDuration="0.3s"
+        alert("H")
         console.log(nav)
     }
     else{
