@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/techplacita/static/css/main.41e15737.chunk.css",
-    "main.js": "/techplacita/static/js/main.8216064d.chunk.js",
-    "main.js.map": "/techplacita/static/js/main.8216064d.chunk.js.map",
+    "main.js": "/techplacita/static/js/main.56f8ad1a.chunk.js",
+    "main.js.map": "/techplacita/static/js/main.56f8ad1a.chunk.js.map",
     "runtime-main.js": "/techplacita/static/js/runtime-main.f429f023.js",
     "runtime-main.js.map": "/techplacita/static/js/runtime-main.f429f023.js.map",
-    "static/js/2.0500976b.chunk.js": "/techplacita/static/js/2.0500976b.chunk.js",
-    "static/js/2.0500976b.chunk.js.map": "/techplacita/static/js/2.0500976b.chunk.js.map",
+    "static/js/2.0fd775c7.chunk.js": "/techplacita/static/js/2.0fd775c7.chunk.js",
+    "static/js/2.0fd775c7.chunk.js.map": "/techplacita/static/js/2.0fd775c7.chunk.js.map",
     "index.html": "/techplacita/index.html",
-    "precache-manifest.59548c62c3fdd1117daa91a3c8c9d97c.js": "/techplacita/precache-manifest.59548c62c3fdd1117daa91a3c8c9d97c.js",
+    "precache-manifest.c8268545ba4517ab619d0dc87fe11e02.js": "/techplacita/precache-manifest.c8268545ba4517ab619d0dc87fe11e02.js",
     "service-worker.js": "/techplacita/service-worker.js",
     "static/css/main.41e15737.chunk.css.map": "/techplacita/static/css/main.41e15737.chunk.css.map",
-    "static/js/2.0500976b.chunk.js.LICENSE.txt": "/techplacita/static/js/2.0500976b.chunk.js.LICENSE.txt"
+    "static/js/2.0fd775c7.chunk.js.LICENSE.txt": "/techplacita/static/js/2.0fd775c7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f429f023.js",
-    "static/js/2.0500976b.chunk.js",
+    "static/js/2.0fd775c7.chunk.js",
     "static/css/main.41e15737.chunk.css",
-    "static/js/main.8216064d.chunk.js"
+    "static/js/main.56f8ad1a.chunk.js"
   ]
 }
