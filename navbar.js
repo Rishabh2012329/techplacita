@@ -12,9 +12,10 @@ addEventListener('scroll',()=>{
         console.log(nav)
     }
     else{
-    nav[0].style.backgroundColor="transparent"
+    nav[0].style.backgroundColor="white"
     nav[0].style.animationName="none"
     nav[0].style.webkitAnimationDuration="none"
+    nav[0].classList.remove('sticky')
     }
 })
   addEventListener('load',()=>{
