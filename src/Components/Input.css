@@ -1,0 +1,9 @@
+.form-control:focus{
+	outline: none !important;
+}
+.form-control{
+	outline: none !important
+}
+input.form-control:focus,.btn-primary:focus{
+	box-shadow: 0 0 0;
+}

@@ -1,0 +1,17 @@
+
+#cont{
+	padding: 50px;
+}
+@media screen and (max-width: 800px){
+	#cimg{
+		display: none;
+	}
+	#cf{
+		justify-content: center;
+	}
+	#cont{
+		padding: 10px;
+	}
+}
+
+

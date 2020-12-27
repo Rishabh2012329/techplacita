@@ -1,0 +1,63 @@
+.parallex{
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    position:absolute;
+    background-image: url('https://previews.123rf.com/images/yamonstro/yamonstro1706/yamonstro170600018/79623583-abstract-vector-technology-white-background.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+#boot{
+    max-width: 360px;
+   
+    margin:10px
+}
+#boot:hover{
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.9);
+    max-width:400px;
+    background-size: cover;
+}
+#biit{
+    background-size: 90%;
+}
+#boot:hover #biit{
+    animation-name: my;
+    animation-duration: 0.8s;
+    background-size: 120%;
+}
+
+@keyframes my{
+    from{background-size: 90%;}
+    to{background-size: 120%;}
+}
+#i1{
+    display: none !important;
+}
+@media only screen and (max-width: 600px) {
+    #boot:hover{
+        box-shadow: 0px 0px 30px black;
+        width:335px;
+        background-size: cover;
+    }
+    #slide{
+        flex-direction: column-reverse !important;
+        height:auto  !important
+    }
+    #slideText{
+
+        max-width: 100% !important;
+    }
+    #slideImage{
+        width: 100% !important;
+        height:250px !important
+    }
+    #i1{
+        display: flex !important;
+    }
+    #i2{
+        display: none !important;
+    }
+  }
