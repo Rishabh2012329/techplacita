@@ -1,0 +1,16 @@
+.grid {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 45vw 20vw 20vw;
+  }
+#gridItem1{
+    background-size: 118%;
+}
+#gridItem1:hover{
+    animation: gridmy 0.3s;
+    background-size: 145% ;
+}
+  @keyframes gridmy{
+    from{background-size: 118%;}
+    to{background-size: 145%;}
+ }

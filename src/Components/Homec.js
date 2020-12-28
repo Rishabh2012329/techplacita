@@ -4,6 +4,7 @@ import Header from '../Layout/Header'
 import './style.css'
 import HContainer from './HContainer'
 import {FaArrowLeft, FaChevronRight,FaChevronLeft} from 'react-icons/fa'
+import Hc3 from './Hc3'
 
 export default function Homec(){
 	return(
@@ -43,7 +44,9 @@ We are hoping that the pandemic gets under control soon and we can all get back 
 					<img src="https://www.intelliswift.com/images/covid-images/Suraj.png" style={{width:"128px",height:"150px"}} />	
 					<h6 style={{color:"rgba(0,0,0,0.9)",marginTop:"10px",fontWeight:"bold",fontFamily:"'Poppins', sans-serif"}}>SURAJ KP,<br/>PRESIDENT</h6>
 				</div>
+				
 			</div>
+			<div style={{height:"40px",width:"10px"}}></div>
 			<div  className="parallex" style={{zIndex:"-10",backgroundImage:"url(https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg?size=626&ext=jpg)"}}></div>
 		</div >
 			<div style={{position:"relative"}}>
@@ -51,7 +54,7 @@ We are hoping that the pandemic gets under control soon and we can all get back 
 					<div style={{width:"40px",backgroundColor:"green",height:"4px",marginTop:"10px",marginBottom:"10px"}}></div>
 					<h3 style={{fontWeight:"800"}}>INTELLISWIFT’S DIGITAL TRANSFORMATION ACCELERATORS</h3>	
 				</div>
-				<div id="slide" style={{width:"88%",height:"auto",backgroundColor:"#2b0087",margin:"auto",flexDirection:"row-reverse",display:"flex",flexWrap:"wrap",justifyContent:"space-between"}}>
+				<div id="slide" style={{width:"88%",height:"auto",backgroundColor:"#2b0087",margin:"auto",marginTop:"20px",flexDirection:"row-reverse",display:"flex",flexWrap:"wrap",justifyContent:"space-between"}}>
 					<div id="slideText" style={{maxWidth:"50%",height:"auto",color:"white",display:"flex",justifyContent:"center",padding:"30px",flexDirection:"column"}}>
 						<h4 style={{fontWeight:"bold"}}>Soften Your Asks</h4>
 						<div>We are always focused on our customers, and right now, keeping a meeting might not be their biggest priority and we respect that. Preemptively ask prospects if they need to reschedule and if so, ask for a better time slot in the next few weeks. For example: I'm sure you have a lot on your plate trying to maintain continuity of your business in this difficult time. We are all in unchartered territory and we'd be happy to share with your team what we're doing to stay up and running. Do you have some time for a call either next week or the following?</div>
@@ -62,8 +65,11 @@ We are hoping that the pandemic gets under control soon and we can all get back 
 					</div>	
 					<img id="slideImage" src="https://www.intelliswift.com/images/covid-images/Tip-01.jpg" style={{width:"50%",height:"400px"}}/>
 				</div>
+				<div style={{height:"40px",width:"10px"}}></div>
 				<div  className="parallex" style={{zIndex:"-10",backgroundImage:"url(https://image.shutterstock.com/image-vector/light-grey-medical-background-corona-260nw-1703862625.jpg)"}} ></div>
 			</div>
+
+			<Hc3/>
 		</div>
 	)
 }

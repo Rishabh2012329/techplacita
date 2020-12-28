@@ -36,6 +36,9 @@
 #i1{
     display: none !important;
 }
+
+  
+  
 @media only screen and (max-width: 600px) {
     #boot:hover{
         box-shadow: 0px 0px 30px black;
