@@ -5,6 +5,7 @@
   }
 #gridItem1{
     background-size: 118%;
+    animation: gridmy2 0.3s;
 }
 #gridItem1:hover{
     animation: gridmy 0.3s;
@@ -13,4 +14,22 @@
   @keyframes gridmy{
     from{background-size: 118%;}
     to{background-size: 145%;}
+ }
+
+ @keyframes gridmy2{
+  from{background-size: 145%;}
+  to{background-size: 118%;}
+}
+
+ @media only screen and (max-width: 600px) {
+  .grid{
+    grid-template-columns: 100%;
+  } 
+  #gridItem1{
+    width: 100% !important;
+    height:200px !important;
+  }
+  #fg{
+    flex-direction: column-reverse !important;
+  }
  }

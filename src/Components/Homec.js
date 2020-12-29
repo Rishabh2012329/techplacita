@@ -5,6 +5,8 @@ import './style.css'
 import HContainer from './HContainer'
 import {FaArrowLeft, FaChevronRight,FaChevronLeft} from 'react-icons/fa'
 import Hc3 from './Hc3'
+import Hc4 from './Hc4'
+import Footer from '../Layout/Footer'
 
 export default function Homec(){
 	return(
@@ -70,6 +72,8 @@ We are hoping that the pandemic gets under control soon and we can all get back 
 			</div>
 
 			<Hc3/>
+			<Hc4/>
+			<Footer/>
 		</div>
 	)
 }
