@@ -12,26 +12,26 @@ export default function NavBar() {
     }
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light " style={{zIndex:5,backgroundColor:'white',overflow:'hidden',boxShadow:"0px 5px 10px rgba(0,0,0,0.2)"}} >          
+            <nav className="navbar navbar-expand-lg navbar-light sticky" style={{zIndex:5,backgroundColor:'transparent',overflow:'hidden',color:"white",borderBottom:"solid rgba(255,255,255,0.4) 1px"}} >          
                 <div >
-                    <a id="tech" className="navbar-brand" href="#" style={{fontWeight:'800',color:"#404040",fontSize:"30px"}}>TechPlacita</a>
-                    <button style={{right:"10px",position:'absolute',border:"none",outline:'none',marginTop:'5px',color:'white'}} className="navbar-toggler" type="button" onClick={()=>NavT()}>
-                        <span className="navbar-toggler-icon" style={{color:'#404040'}}></span>
+                    <a id="tech" className="navbar-brand" href="#" style={{fontWeight:'800',color:"inherit",fontSize:"30px"}}>TechPlacita</a>
+                    <button style={{right:"10px",position:'absolute',border:"none",outline:'none',marginTop:'5px'}} className="navbar-toggler" type="button" onClick={()=>NavT()}>
+                        <span className="navbar-toggler-icon" style={{color:'inherit'}}></span>
                    </button>
                 </div>
 
                 <div className="collapse navbar-collapse " id="navbarNavAltMarkup" style={{marginRight:"0"}}   >
                     <div className="navbar-nav" style={{fontWeight:'600',width:'100%',display:'flex',justifyContent:"flex-end"}}>
-                       <Link id="ink" to="/techplacita"> <a id="nav" className="nav-item nav-link active"  style={{color:'#404040'}}>Home <span className="sr-only">(current)</span></a></Link>
-                        <a id="nav" className="nav-item nav-link" style={{color:'#404040'}} >Servics</a>
-                        <a id="nav" className="nav-item nav-link" style={{color:'#404040'}} >Carrer</a> 
-                        <Link id="ink" to="/techplacita/Contact"><a id="nav" className="nav-item nav-link" style={{color:'#404040'}} >ContactUs</a> </Link>
-                        <Link id="ink" to="/techplacita/Aboutus"><a id="nav" className="nav-item nav-link" style={{color:'#404040'}} >AboutUs</a></Link>
+                       <Link id="ink" to="/techplacita" style={{color:"inherit"}}> <a id="nav" className="nav-item nav-link active"  style={{color:'inherit'}}>Home <span className="sr-only">(current)</span></a></Link>
+                        <a id="nav" className="nav-item nav-link" style={{color:'inherit'}} >Servics</a>
+                        <a id="nav" className="nav-item nav-link" style={{color:'inherit'}} >Carrer</a> 
+                        <Link id="ink" to="/techplacita/Contact" style={{color:"inherit"}}><a id="nav" className="nav-item nav-link" style={{color:'inherit'}} >ContactUs</a> </Link>
+                        <Link id="ink" to="/techplacita/Aboutus" style={{color:"inherit"}}><a id="nav" className="nav-item nav-link" style={{color:'inherit'}} >AboutUs</a></Link>
                     </div>
                 </div>     
             </nav>
             <div style={{display:Toggle}}>
-            <div style={{zIndex:'8',color:'#404040',boxShadow:'1px 1px 10px black',backgroundColor:"white",animation:"ease-in 1s",animationName:"moc",animationDirection:"normal",animationDuration:'0.2s',width:'70%',display:"flex",flexDirection:"column",left:"0",top:"0",bottom:'0',position:"fixed",alignItems:'center'}}>
+            <div style={{zIndex:'8',color:'#404040',boxShadow:'1px 1px 10px black',backgroundColor:"inherit",animation:"ease-in 1s",animationName:"moc",animationDirection:"normal",animationDuration:'0.2s',width:'70%',display:"flex",flexDirection:"column",left:"0",top:"0",bottom:'0',position:"fixed",alignItems:'center'}}>
                      <Link id="Link" to="/techplacita">  
 			<div onClick={()=>NavT()} className="navi" style={{marginTop:'15px',color:"#404040"}}>
 				<hr style={{width:"100%",height:"1px",color:"#404040"}}/>Home <hr style={{width:"100%",height:"1px"}}/>

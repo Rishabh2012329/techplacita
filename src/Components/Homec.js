@@ -6,7 +6,8 @@ import HContainer from './HContainer'
 import {FaArrowLeft, FaChevronRight,FaChevronLeft} from 'react-icons/fa'
 import Hc3 from './Hc3'
 import Hc4 from './Hc4'
-import Footer from '../Layout/Footer'
+import Footer2 from './Footer2'
+import NewCard from './NewCard'
 
 export default function Homec(){
 	return(
@@ -20,7 +21,7 @@ export default function Homec(){
 			<div style={{width:"100%",height:"auto",overflow:"hidden",padding:"5px",position:"relative",display:"flex",justifyContent:"space-around",alignItems:"center",flexWrap:"wrap",zIndex:"1"}}>
 				
 				<HContainer/>
-				<HContainer/>
+				<NewCard/>
 				<HContainer/>
 			</div>
 			<div style={{margin:"auto",marginTop:"100px",width:"85%",display:"flex",flexWrap:"wrap",flexDirection:"row",justifyContent:"space-between"}}>
@@ -73,7 +74,7 @@ We are hoping that the pandemic gets under control soon and we can all get back 
 
 			<Hc3/>
 			<Hc4/>
-			<Footer/>
+			<Footer2/>
 		</div>
 	)
 }

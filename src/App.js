@@ -21,7 +21,7 @@ function App() {
   return (
   	<Router>
     	<div className="App" >
-        <Nav2/>
+        {/*<Nav2/>*/}
 	     	<NavBar/>
 	     	<Header/>
 	 <Switch>

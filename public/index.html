@@ -50,11 +50,17 @@
  
     const nav=document.getElementsByTagName('nav')
     var currentScrollPos = window.pageYOffset;
-    if(currentScrollPos>40){ 
-      nav[0].classList.add('sticky')
+    if(currentScrollPos>20){ 
+      nav[0].style.background="white"
+      nav[0].style.color="#404040"
+      nav[0].style.boxShadow="0px 5px 10px rgba(0,0,0,0.2)"
+      
     }
-    else
-    nav[0].classList.remove('sticky')
+    else{
+    nav[0].style.background="transparent"
+    nav[0].style.color="white"
+    nav[0].style.boxShadow=""
+    }
     
 })
   addEventListener('load',()=>{
