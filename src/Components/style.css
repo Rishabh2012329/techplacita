@@ -16,8 +16,10 @@
     margin:10px
 }
 #boot:hover{
+    animation: hanim 0.6s;
     box-shadow: 0px 0px 30px rgba(0,0,0,0.3);
     max-width:400px;
+    width:400px;
     background-size: cover;
 }
 #biit{
@@ -28,7 +30,10 @@
     animation-duration: 0.8s;
     background-size: 120%;
 }
-
+@keyframes hanim{
+    from{width: 360px;}
+    to{width:400px;}
+}
 @keyframes my{
     from{background-size: 90%;}
     to{background-size: 120%;}

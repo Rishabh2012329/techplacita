@@ -23,7 +23,7 @@ function App() {
     	<div className="App" >
         {/*<Nav2/>*/}
 	     	<NavBar/>
-	     	<Header/>
+	     	
 	 <Switch>
           <Route path="/techplacita/aboutus">
             <Aboutus />

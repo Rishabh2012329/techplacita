@@ -23,7 +23,7 @@ export default function Footer2() {
             <div>
             <Rowc show={true} text="© 1999–2020" t1="Privacy" t2="Lega" arr={['Home','Contactus','services','aboutus','career']} width="400px" />
             </div>
-            <p style={{fontSize:"12px",marginTop:"2vw",marginLeft:"15px"}}>PayPal Services in India are provided by PayPal Payments Private Limited (CIN U74990MH2009PTC194653). Users are advised to read the terms and conditions carefully.</p>
+            <p style={{fontSize:"12px",marginTop:"2vw",marginLeft:"15px"}}>techplacita Services in India are provided by techplacita Payments Private Limited (CIN U74990MH2009PTC194653). Users are advised to read the terms and conditions carefully.</p>
       
             <p style={{fontSize:"12px",marginTop:"1vw",marginLeft:"15px"}}>When you visit or interact with our sites, services, applications, tools or messaging, we or our authorised service providers may use cookies, web beacons, and other similar technologies for storing information to help provide you with a better, faster and safer experience and for advertising purposes. Learn more here.</p>
         </div>

@@ -12,11 +12,12 @@ import NewCard from './NewCard'
 export default function Homec(){
 	return(
 		<div>
+		<Header/>
 		<div style={{position:"relative"}}>
 			<div style={{display:"flex",flexDirection:"column",alignItems:"center",backgroundColor:"transparent",marginTop:"20px"}}>
 				<div style={{width:"60px",backgroundColor:"greenyellow",height:"3px",marginTop:"10px",marginBottom:"10px"}}></div>
-				<h3 style={{fontWeight:"800"}}>INTELLISWIFT’S DIGITAL TRANSFORMATION ACCELERATORS</h3>
-				<p>Intelliswift’s unique solutions are secure, scalable and modern – designed to deliver value, accelerate your digital transformation and reduce costs.</p>
+				<h3 style={{fontWeight:"800"}}>Techplacita’S DIGITAL TRANSFORMATION ACCELERATORS</h3>
+				<p>Techplacita’s unique solutions are secure, scalable and modern – designed to deliver value, accelerate your digital transformation and reduce costs.</p>
 			</div>
 			<div style={{width:"100%",height:"auto",overflow:"hidden",padding:"5px",position:"relative",display:"flex",justifyContent:"space-around",alignItems:"center",flexWrap:"wrap",zIndex:"1"}}>
 				
@@ -26,11 +27,11 @@ export default function Homec(){
 			</div>
 			<div style={{margin:"auto",marginTop:"100px",width:"85%",display:"flex",flexWrap:"wrap",flexDirection:"row",justifyContent:"space-between"}}>
 				<div  style={{display:'flex',flexDirection:"column",alignItems:"center"}}>
-					<img src="https://www.intelliswift.com/images/covid-images/Pat.png" style={{width:"128px",height:"150px"}} />	
+					<img src="https://www.Techplacita.com/images/covid-images/Pat.png" style={{width:"128px",height:"150px"}} />	
 					<h6 style={{color:"rgba(0,0,0,0.9)",marginTop:"10px"}}>Pat Patel,CEO</h6>
 				</div>
 				<div id="i1" style={{display:'none',flexDirection:"column",alignItems:"center"}}>
-					<img src="https://www.intelliswift.com/images/covid-images/Suraj.png" style={{width:"128px",height:"150px"}} />	
+					<img src="https://www.Techplacita.com/images/covid-images/Suraj.png" style={{width:"128px",height:"150px"}} />	
 					<h6 style={{color:"rgba(0,0,0,0.9)",marginTop:"10px",fontWeight:"bold",fontFamily:"'Poppins', sans-serif"}}>SURAJ KP,<br/>PRESIDENT</h6>
 				</div>
 					<div  style={{display:"flex",flexDirection:"column",maxWidth:"700px"}}>
@@ -44,7 +45,7 @@ We are hoping that the pandemic gets under control soon and we can all get back 
 						</div>
 					</div>
 				<div id="i2" style={{display:'flex',flexDirection:"column",alignItems:"center"}}>
-					<img src="https://www.intelliswift.com/images/covid-images/Suraj.png" style={{width:"128px",height:"150px"}} />	
+					<img src="https://www.Techplacita.com/images/covid-images/Suraj.png" style={{width:"128px",height:"150px"}} />	
 					<h6 style={{color:"rgba(0,0,0,0.9)",marginTop:"10px",fontWeight:"bold",fontFamily:"'Poppins', sans-serif"}}>SURAJ KP,<br/>PRESIDENT</h6>
 				</div>
 				
@@ -55,7 +56,7 @@ We are hoping that the pandemic gets under control soon and we can all get back 
 			<div style={{position:"relative"}}>
 				<div style={{display:"flex",flexDirection:"column",alignItems:"center",backgroundColor:"transparent",marginTop:"20px"}}>
 					<div style={{width:"40px",backgroundColor:"green",height:"4px",marginTop:"10px",marginBottom:"10px"}}></div>
-					<h3 style={{fontWeight:"800"}}>INTELLISWIFT’S DIGITAL TRANSFORMATION ACCELERATORS</h3>	
+					<h3 style={{fontWeight:"800"}}>Techplacita’S DIGITAL TRANSFORMATION ACCELERATORS</h3>	
 				</div>
 				<div id="slide" style={{width:"88%",height:"auto",backgroundColor:"#2b0087",margin:"auto",marginTop:"20px",flexDirection:"row-reverse",display:"flex",flexWrap:"wrap",justifyContent:"space-between"}}>
 					<div id="slideText" style={{maxWidth:"50%",height:"auto",color:"white",display:"flex",justifyContent:"center",padding:"30px",flexDirection:"column"}}>
@@ -66,7 +67,7 @@ We are hoping that the pandemic gets under control soon and we can all get back 
 							<div style={{border:"solid white 1px",width:"40px",height:"40px",display:"flex",justifyContent:"center",alignItems:"center",cursor:"pointer"}}><FaChevronRight fontSize="18px"/></div>
 						</div>
 					</div>	
-					<img id="slideImage" src="https://www.intelliswift.com/images/covid-images/Tip-01.jpg" style={{width:"50%",height:"400px"}}/>
+					<img id="slideImage" src="https://www.Techplacita.com/images/covid-images/Tip-01.jpg" style={{width:"50%",height:"400px"}}/>
 				</div>
 				<div style={{height:"40px",width:"10px"}}></div>
 				<div  className="parallex" style={{zIndex:"-10",backgroundImage:"url(https://image.shutterstock.com/image-vector/light-grey-medical-background-corona-260nw-1703862625.jpg)"}} ></div>

@@ -1,13 +1,42 @@
-import React from 'react'
-import {Form,Col} from 'react-bootstrap'
+import React,{useEffect} from 'react'
+import {Form,Col,col} from 'react-bootstrap'
 import Input from './Input'
 import './contact.css'
-import Footer from '../Layout/Footer'
+import Footer2 from './Footer2'
+import GMap from './GMap'
+
 
 export default function Contact(){
+	const scr=()=>{
+		const nav=document.getElementsByTagName('nav')
+		var currentScrollPos = window.pageYOffset;
+		if(currentScrollPos<20){ 
+			nav[0].style.background="white"
+			nav[0].style.color="#404040"
+			nav[0].style.boxShadow="0px 5px 10px rgba(0,0,0,0.2)"
+			
+		  }
+		}
+	useEffect(()=>{
+		var nav=document.getElementsByTagName('nav');
+		nav[0].style.backgroundColor="white"
+		nav[0].style.color="#404040"
+		nav[0].style.boxShadow="0px 5px 10px rgba(0,0,0,0.2)"
+		 window.addEventListener('scroll',scr)
+		return function cleanup () {
+			nav[0].style.backgroundColor="transparent"
+			nav[0].style.color="white"
+			nav[0].style.boxShadow=""
+			window.removeEventListener('scroll',scr);
+		  }
+	},[])
 	return(
-		<div style={{left:"0",right:"0",position:"absolute",overflow:"hidden"}}>
-		<div id="cont" style={{display:"flex",flexDirection:"row",justifyContent:"space-between",height:"100%",width:"100%",}}>
+		<div style={{overflow:"hidden",width:"100%",display:"flex",alignItems:"center",flexDirection:"column"}}>
+			<div style={{zIndex:"-2",width:"100%",height:"300px",background:"url(https://www.ascendas-reit.com/en/-/media/eeb9c6f489b849039f4074c3642ed745.jpg) no-repeat center ",backgroundSize:"cover",paddingTop:"90px",position:"relative"}}>
+					<div style={{zIndex:"-1",top:"0",bottom:'0',left:'0',right:'0',position:"absolute",backgroundColor:"rgba(100,47,130,0.5)",}}></div>
+					<h1 style={{textAlign:"center",color:"white",zIndex:"3"}}>Contact us</h1>
+			</div>
+		<div id="cont" style={{display:"flex",flexDirection:"row",justifyContent:"space-between",height:"auto",width:"90%",alignItems:"center",marginBottom:"8vw"}}>
 			{/*<div style={{color:"white",width:"40%",flexDirection:"column",backgroundColor:"#0359a2",padding:"30px",height:"100%"}}>
 			  <div style={{height:"300px",width:"400px",display:"flex",justifyContent:"space-evenly",flexDirection:"column"}}>
 				<div style={{borderBottom:"solid white 1px",width:"140px",fontSize:"20px",marginTop:"30px"}}>
@@ -19,7 +48,7 @@ export default function Contact(){
 				<div style={{fontSize:"20px",fontWeight:"600",marginTop:"24px"}}>techplacita@gmail.com</div>
 			</div>
 			</div>*/}
-			<div id="cf" style={{display:"flex",alignItems:"center"}}>
+			<div id="cf" style={{display:"flex",alignItems:"center",width:"300px"}}>
 			 <Form.Group as={Col}  style={{marginTop:"60px",heigth:"300px",width:"300px"}}>
 			 <h1 style={{fontWeight:"600"}}>Drop us a line </h1>
 		   <Form.Row style={{marginTop:"30px"}}>
@@ -53,15 +82,17 @@ export default function Contact(){
 		 		Submit
 		 	</button>*/}
 			</div>
-			<div style={{display:"flex",alignItems:"center"}}>
-				<div style={{maxWidth:"500px",height:"300px",paddingTop:"40px"}}>
-				
-				<img id="cimg" style={{width:"500px",height:"300px"}} src="https://cccnevada.com/dashboard/wp-content/uploads/Contact-Us.jpg"/>
-				</div>
-			</div>
 
+				
+			 	<GMap/>
+
+			
 		</div>
-		<Footer/>
+			
+			
+		
+		
+		<Footer2/>
 		</div>
 	)
 }
