@@ -1,0 +1,13 @@
+@media only screen and (max-width: 800px){
+    #rch{
+        font-size: 30px !important;
+    }
+    #rci{
+        width:300px !important;
+        margin-right: 40px !important;
+        margin-bottom: 70px !important;
+    }
+    #rc{
+        padding:10px !important
+    }
+}

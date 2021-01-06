@@ -9,6 +9,7 @@ import Homec from './Components/Homec'
 import config from 'react-reveal/globals';
 import './Components/style.css'
 import Nav2 from './Layout/Nav2'
+import Service from './Components/Service'
 
 import {
   BrowserRouter as Router,
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path="/techplacita/Contact">
             <Contact />
+          </Route>
+          <Route path="/techplacita/Services">
+            <Service />
           </Route>
           <Route path="/techplacita">
             <Homec />
