@@ -69,3 +69,11 @@
         display: none !important;
     }
   }
+
+#homeHeader{
+    text-align: center;
+}
+
+#footmarg{
+    margin-bottom:10px
+}

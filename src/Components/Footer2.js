@@ -2,7 +2,7 @@ import React from 'react'
 import SmallIcon from './SmallIcon'
 import {FaFacebookF, FaInstagram, FaLinkedinIn,FaTwitter, FaYoutube} from 'react-icons/fa'
 import Rowc from './Rowc'
-
+import './style.css'
 export default function Footer2() {
     return (
         <div style={{width:"100%",height:"450px",padding:"3vw",paddingLeft:"5vw",paddingRight:"5vw",display:"flex",flexDirection:"column"}}>
@@ -16,11 +16,11 @@ export default function Footer2() {
                 <SmallIcon Icon={FaInstagram} color="#cbcbcb" size="25px" width="45px" height="45px" />
 
             </div>
-            <div style={{marginTop:"5vw"}}>
+            <div id="footmarg" style={{marginTop:"5vw"}}>
                <Rowc arr={['Home','Contactus','services','aboutus','career']} width="380px" weight="bold" />
             </div>
             <hr style={{width:"98%",height:"1px",color:"#404040"}}/>
-            <div>
+            <div id="footmarg">
             <Rowc show={true} text="© 1999–2020" t1="Privacy" t2="Lega" arr={['Home','Contactus','services','aboutus','career']} width="400px" />
             </div>
             <p style={{fontSize:"12px",marginTop:"2vw",marginLeft:"15px"}}>techplacita Services in India are provided by techplacita Payments Private Limited (CIN U74990MH2009PTC194653). Users are advised to read the terms and conditions carefully.</p>

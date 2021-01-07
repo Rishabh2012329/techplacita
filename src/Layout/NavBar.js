@@ -31,15 +31,20 @@ export default function NavBar() {
                 </div>     
             </nav>
             <div style={{display:Toggle}}>
-            <div style={{zIndex:'8',color:'#404040',boxShadow:'1px 1px 10px black',backgroundColor:"inherit",animation:"ease-in 1s",animationName:"moc",animationDirection:"normal",animationDuration:'0.2s',width:'70%',display:"flex",flexDirection:"column",left:"0",top:"0",bottom:'0',position:"fixed",alignItems:'center'}}>
-                     <Link id="Link" to="/techplacita">  
+            <div style={{zIndex:'8',color:'#404040',boxShadow:'1px 1px 10px black',backgroundColor:"white",animation:"ease-in 1s",animationName:"moc",animationDirection:"normal",animationDuration:'0.2s',width:'70%',display:"flex",flexDirection:"column",left:"0",top:"0",bottom:'0',position:"fixed",alignItems:'center'}}>
+            <Link id="Link" to="/techplacita">  
 			<div onClick={()=>NavT()} className="navi" style={{marginTop:'15px',color:"#404040"}}>
 				<hr style={{width:"100%",height:"1px",color:"#404040"}}/>Home <hr style={{width:"100%",height:"1px"}}/>
 			</div>
 		    </Link>
+            <Link id="Link" to="/techplacita/Services">  
+			<div onClick={()=>NavT()} className="navi" style={{marginTop:'15px',color:"#404040"}}>
+				Services <hr style={{width:"100%",height:"1px"}}/>
+			</div>
+		    </Link>
 
                       <Link id="Link" to="/techplacita/Contact"> 
-	 		<div onClick={()=>NavT()} className="navi" style={{marginTop:"15px",color:"#404040"}}>Contact us
+	 		<div onClick={()=>NavT()} className="navi" style={{color:"#404040"}}>Contact us
 			 <hr style={{width:"100%",height:"1px",color:"#404040"}}/>
 			</div>
 		    </Link>

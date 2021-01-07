@@ -16,7 +16,7 @@ export default function Homec(){
 		<div style={{position:"relative"}}>
 			<div style={{display:"flex",flexDirection:"column",alignItems:"center",backgroundColor:"transparent",marginTop:"20px"}}>
 				<div style={{width:"60px",backgroundColor:"greenyellow",height:"3px",marginTop:"10px",marginBottom:"10px"}}></div>
-				<h3 style={{fontWeight:"800"}}>Techplacita’S DIGITAL TRANSFORMATION ACCELERATORS</h3>
+				<h3 id="homeHeader" style={{fontWeight:"800"}}>Techplacita’S DIGITAL TRANSFORMATION ACCELERATORS</h3>
 				<p>Techplacita’s unique solutions are secure, scalable and modern – designed to deliver value, accelerate your digital transformation and reduce costs.</p>
 			</div>
 			<div style={{width:"100%",height:"auto",overflow:"hidden",padding:"5px",position:"relative",display:"flex",justifyContent:"space-around",alignItems:"center",flexWrap:"wrap",zIndex:"1"}}>
@@ -56,7 +56,7 @@ We are hoping that the pandemic gets under control soon and we can all get back 
 			<div style={{position:"relative"}}>
 				<div style={{display:"flex",flexDirection:"column",alignItems:"center",backgroundColor:"transparent",marginTop:"20px"}}>
 					<div style={{width:"40px",backgroundColor:"green",height:"4px",marginTop:"10px",marginBottom:"10px"}}></div>
-					<h3 style={{fontWeight:"800"}}>Techplacita’S DIGITAL TRANSFORMATION ACCELERATORS</h3>	
+					<h3 id="homeHeader" style={{fontWeight:"800"}}>Techplacita’S DIGITAL TRANSFORMATION ACCELERATORS</h3>	
 				</div>
 				<div id="slide" style={{width:"88%",height:"auto",backgroundColor:"#2b0087",margin:"auto",marginTop:"20px",flexDirection:"row-reverse",display:"flex",flexWrap:"wrap",justifyContent:"space-between"}}>
 					<div id="slideText" style={{maxWidth:"50%",height:"auto",color:"white",display:"flex",justifyContent:"center",padding:"30px",flexDirection:"column"}}>

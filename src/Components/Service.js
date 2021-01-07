@@ -6,7 +6,7 @@ import Footer2 from './Footer2'
 
 export default function Service(){
 	return (
-		<div style={{position:"relative"}}>
+		<div style={{position:"relative",overflow:"hidden"}}>
 			<div style={{zIndex:"-2",width:"100%",height:"88vh",background:"url(https://www.ascendas-reit.com/en/-/media/eeb9c6f489b849039f4074c3642ed745.jpg) no-repeat center ",backgroundSize:"cover",paddingTop:"150px",position:"relative"}}>
 					<div style={{zIndex:"-1",top:"0",bottom:'0',left:'0',right:'0',position:"absolute",backgroundColor:"rgba(100,47,130,0.7)",}}></div>
 					<h1 style={{textAlign:"center",color:"white",zIndex:"3"}}>Managed IT Services You Can Trust</h1>
@@ -50,13 +50,13 @@ export default function Service(){
                 </div>
                 
                <img id="rci" style={{maxWidth:"600px",height:"auto"}} src="https://www.elegantthemes.com/layouts/wp-content/uploads/2018/07/it-services-03.png"/>
-				<h1 style={{opacity:"0.04",top:"-10px",left:"0",position:"absolute",fontSize:"70px"}}>Apporach</h1>
+				
 			</div>
 			</div>
 
-			<div style={{display:"flex",flexDirection:"row"}}>
+			<div style={{display:"flex",flexDirection:"row",marginBottom:"40px"}}>
 				<div></div>
-			</div>
+			</div >
 			<Footer2/>
 		</div>
 	)
