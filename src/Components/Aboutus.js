@@ -54,8 +54,8 @@ export default function Aboutus(){
 			</div> */}
 			
 			{/*<Footer/>*/}
-			<div style={{zIndex:"-2",width:"100%",height:"300px",background:"url(https://www.ascendas-reit.com/en/-/media/eeb9c6f489b849039f4074c3642ed745.jpg) no-repeat center ",backgroundSize:"cover",paddingTop:"90px",position:"relative"}}>
-					<div style={{zIndex:"-1",top:"0",bottom:'0',left:'0',right:'0',position:"absolute",backgroundColor:"rgba(100,47,130,0.5)",}}></div>
+			<div style={{zIndex:"-2",width:"100%",height:"300px",background:"url(https://www.ascendas-reit.com/en/-/media/eeb9c6f489b849039f4074c3642ed745.jpg) no-repeat center ",backgroundSize:"cover",paddingTop:"120px",position:"relative"}}>
+					<div style={{zIndex:"-1",top:"0",bottom:'0',left:'0',right:'0',position:"absolute",backgroundColor:"rgba(100,47,130,0.7)",}}></div>
 					<h1 style={{textAlign:"center",color:"white",zIndex:"3"}}>This is Techplacita</h1>
 			</div>	
 			<div  style={{width:"100%",marginTop:"60px",marginBottom:"60px"}}>

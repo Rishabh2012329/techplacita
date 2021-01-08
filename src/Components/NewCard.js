@@ -1,9 +1,11 @@
 import React from 'react'
 import {Card} from 'react-bootstrap'
 import {FaCloud} from 'react-icons/fa'
+import {Zoom} from 'react-reveal'
 
 export default function NewCard({display,bc,txtColor,anim,margin}) {
     return (
+       <Zoom>
         <div>
              <Card  style={{position:"relative",background:bc?bc:"transparent",height:"350px",borderRadius:"8px",margin:"20px"}} id={!anim?"":"boot"}>
               
@@ -20,5 +22,6 @@ export default function NewCard({display,bc,txtColor,anim,margin}) {
               <div style={{top:"0",bottom:"0",right:"0",left:"0",position:"absolute",backgroundColor:"rgba(255,255,255,0.2)",}}></div>
           </Card>
         </div>
+     </Zoom>
     )
 }

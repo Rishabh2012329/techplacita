@@ -13,10 +13,9 @@ export default function Rowc({arr,width,weight,show,text,t1,t2}) {
                 })}
             </div>
 
-           {show?<div style={{width:"250px",color:"#404040",display:"flex",flexDirection:"row",justifyContent:"space-around"}}>
+           {show?<div style={{fontSize:"15px",width:"400px",color:"#404040",display:"flex",flexDirection:"row",justifyContent:"space-around"}}>
                {text}
-               <div>{t1}</div>
-               <div>{t2}</div>
+              <div>{t2}</div>
            </div>:null}
         </div>
     )

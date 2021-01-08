@@ -6,14 +6,14 @@ export default function Hc3() {
     return (<div>
         <div style={{display:"flex",alignItems:"center",flexDirection:"column",padding:"20px"}}>
             <div className="grid" style={{width:"90%"}}>
-                <div id="gridItem1" style={{width:"100%",height:"36vw",backgroundImage:"url(https://www.Techplacita.com/images/covid-images/Support-Image-02.jpg)",backgroundPosition:"center",backgroundRepeat:"no-repeat"}}></div>
+                <div id="gridItem1" style={{width:"100%",height:"36vw",backgroundImage:"url(https://www.intelliswift.com/images/covid-images/Support-Image-02.jpg)",backgroundPosition:"center",backgroundRepeat:"no-repeat"}}></div>
                 <div className="grid-item-2" style={{justifyContent:"space-between",display:"flex",flexDirection:"column"}}>
-                    <div id="gridItem1" style={{width:"100%",height:"17.5vw",backgroundImage:"url(https://www.Techplacita.com/images/covid-images/Support-Image-01-new.jpg)",backgroundPosition:"center",backgroundRepeat:"no-repeat",marginBottom:"5px"}}></div>
-                    <div id="gridItem1" style={{width:"100%",height:"17.5vw",backgroundImage:"url(https://www.Techplacita.com/images/covid-images/Support-Image-04.jpg)",backgroundPosition:"center",backgroundRepeat:"no-repeat"}}></div>
+                    <div id="gridItem1" style={{width:"100%",height:"17.5vw",backgroundImage:"url(https://www.intelliswift.com/images/covid-images/Support-Image-01-new.jpg)",backgroundPosition:"center",backgroundRepeat:"no-repeat",marginBottom:"5px"}}></div>
+                    <div id="gridItem1" style={{width:"100%",height:"17.5vw",backgroundImage:"url(https://www.intelliswift.com/images/covid-images/Support-Image-04.jpg)",backgroundPosition:"center",backgroundRepeat:"no-repeat"}}></div>
                 </div>
                 <div className="grid-item-2" style={{justifyContent:"space-between",display:"flex",flexDirection:"column"}}>
-                    <div id="gridItem1" style={{width:"100%",height:"17.5vw",backgroundImage:"url(https://www.Techplacita.com/images/covid-images/Support-Image-03.jpg)",backgroundPosition:"center",backgroundRepeat:"no-repeat",marginBottom:"5px"}}></div>
-                    <div id="gridItem1" style={{width:"100%",height:"17.5vw",backgroundImage:"url(https://www.Techplacita.com/images/covid-images/Support-Image-05.jpg)",backgroundPosition:"center",backgroundRepeat:"no-repeat"}}></div>
+                    <div id="gridItem1" style={{width:"100%",height:"17.5vw",backgroundImage:"url(https://www.intelliswift.com/images/covid-images/Support-Image-03.jpg)",backgroundPosition:"center",backgroundRepeat:"no-repeat",marginBottom:"5px"}}></div>
+                    <div id="gridItem1" style={{width:"100%",height:"17.5vw",backgroundImage:"url(https://www.intelliswift.com/images/covid-images/Support-Image-05.jpg)",backgroundPosition:"center",backgroundRepeat:"no-repeat"}}></div>
                 </div>          
             </div>
             <div id="fg" style={{display:"flex",flexDirection:"row",width:"90%",marginTop:"5px",justifyContent:"space-between"}}>
@@ -23,7 +23,7 @@ export default function Hc3() {
                 <button style={{border:"none",backgroundColor:"purple",color:"white",width:"100px",padding:"5px"}}>READ MORE</button>
                 </div>
                 
-                <div id="gridItem1" style={{width:"20vw",height:"17.5vw",backgroundImage:"url(https://www.Techplacita.com/images/covid-images/Support-Image-07.jpg)",backgroundRepeat:"no-repeat",backgroundPosition:"center"}}></div>
+                <div id="gridItem1" style={{width:"20vw",height:"17.5vw",backgroundImage:"url(https://www.intelliswift.com/images/covid-images/Support-Image-07.jpg)",backgroundRepeat:"no-repeat",backgroundPosition:"center"}}></div>
             </div>
            
         </div>

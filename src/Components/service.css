@@ -9,7 +9,11 @@
     }
     #rc{
         padding:10px !important;
-        border-top-right-radius: 250px !important;
-        border-bottom-right-radius: 250px !important;
+        border-top-right-radius: 200px !important;
+        border-bottom-right-radius: 200px !important;
+    }
+    #rbb{
+        max-width: 320px !important;
+        width: 400px !important;
     }
 }

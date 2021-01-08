@@ -32,11 +32,11 @@ export default function Contact(){
 	},[])
 	return(
 		<div style={{overflow:"hidden",width:"100%",display:"flex",alignItems:"center",flexDirection:"column"}}>
-			<div style={{zIndex:"-2",width:"100%",height:"300px",background:"url(https://www.ascendas-reit.com/en/-/media/eeb9c6f489b849039f4074c3642ed745.jpg) no-repeat center ",backgroundSize:"cover",paddingTop:"90px",position:"relative"}}>
-					<div style={{zIndex:"-1",top:"0",bottom:'0',left:'0',right:'0',position:"absolute",backgroundColor:"rgba(100,47,130,0.5)",}}></div>
+			<div style={{zIndex:"-2",width:"100%",height:"300px",background:"url(https://www.ascendas-reit.com/en/-/media/eeb9c6f489b849039f4074c3642ed745.jpg) no-repeat center ",backgroundSize:"cover",paddingTop:"120px",position:"relative"}}>
+					<div style={{zIndex:"-1",top:"0",bottom:'0',left:'0',right:'0',position:"absolute",backgroundColor:"rgba(100,47,130,0.7)",}}></div>
 					<h1 style={{textAlign:"center",color:"white",zIndex:"3"}}>Contact us</h1>
 			</div>
-		<div id="cont" style={{display:"flex",flexDirection:"row",justifyContent:"space-between",height:"auto",width:"90%",alignItems:"center",marginBottom:"8vw"}}>
+		<div id="cont" style={{display:"flex",flexDirection:"row",justifyContent:"space-between",height:"auto",width:"90%",alignItems:"center",marginBottom:"8vw",flexWrap:"wrap"}}>
 			{/*<div style={{color:"white",width:"40%",flexDirection:"column",backgroundColor:"#0359a2",padding:"30px",height:"100%"}}>
 			  <div style={{height:"300px",width:"400px",display:"flex",justifyContent:"space-evenly",flexDirection:"column"}}>
 				<div style={{borderBottom:"solid white 1px",width:"140px",fontSize:"20px",marginTop:"30px"}}>

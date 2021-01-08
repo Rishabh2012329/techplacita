@@ -21,17 +21,17 @@ export default function Homec(){
 			</div>
 			<div style={{width:"100%",height:"auto",overflow:"hidden",padding:"5px",position:"relative",display:"flex",justifyContent:"space-around",alignItems:"center",flexWrap:"wrap",zIndex:"1"}}>
 				
-				<HContainer/>
 				<NewCard/>
-				<HContainer/>
+				<NewCard/>
+				<NewCard/>
 			</div>
 			<div style={{margin:"auto",marginTop:"100px",width:"85%",display:"flex",flexWrap:"wrap",flexDirection:"row",justifyContent:"space-between"}}>
 				<div  style={{display:'flex',flexDirection:"column",alignItems:"center"}}>
-					<img src="https://www.Techplacita.com/images/covid-images/Pat.png" style={{width:"128px",height:"150px"}} />	
+					<img src="https://www.intelliswift.com/images/covid-images/Pat.png" style={{width:"128px",height:"150px"}} />	
 					<h6 style={{color:"rgba(0,0,0,0.9)",marginTop:"10px"}}>Pat Patel,CEO</h6>
 				</div>
 				<div id="i1" style={{display:'none',flexDirection:"column",alignItems:"center"}}>
-					<img src="https://www.Techplacita.com/images/covid-images/Suraj.png" style={{width:"128px",height:"150px"}} />	
+					<img src="https://www.intelliswift.com/images/covid-images/Suraj.png" style={{width:"128px",height:"150px"}} />	
 					<h6 style={{color:"rgba(0,0,0,0.9)",marginTop:"10px",fontWeight:"bold",fontFamily:"'Poppins', sans-serif"}}>SURAJ KP,<br/>PRESIDENT</h6>
 				</div>
 					<div  style={{display:"flex",flexDirection:"column",maxWidth:"700px"}}>
@@ -45,7 +45,7 @@ We are hoping that the pandemic gets under control soon and we can all get back 
 						</div>
 					</div>
 				<div id="i2" style={{display:'flex',flexDirection:"column",alignItems:"center"}}>
-					<img src="https://www.Techplacita.com/images/covid-images/Suraj.png" style={{width:"128px",height:"150px"}} />	
+					<img src="https://www.intelliswift.com/images/covid-images/Suraj.png" style={{width:"128px",height:"150px"}} />	
 					<h6 style={{color:"rgba(0,0,0,0.9)",marginTop:"10px",fontWeight:"bold",fontFamily:"'Poppins', sans-serif"}}>SURAJ KP,<br/>PRESIDENT</h6>
 				</div>
 				
@@ -67,7 +67,7 @@ We are hoping that the pandemic gets under control soon and we can all get back 
 							<div style={{border:"solid white 1px",width:"40px",height:"40px",display:"flex",justifyContent:"center",alignItems:"center",cursor:"pointer"}}><FaChevronRight fontSize="18px"/></div>
 						</div>
 					</div>	
-					<img id="slideImage" src="https://www.Techplacita.com/images/covid-images/Tip-01.jpg" style={{width:"50%",height:"400px"}}/>
+					<img id="slideImage" src="https://www.intelliswift.com/images/covid-images/Tip-01.jpg" style={{width:"50%",height:"400px"}}/>
 				</div>
 				<div style={{height:"40px",width:"10px"}}></div>
 				<div  className="parallex" style={{zIndex:"-10",backgroundImage:"url(https://image.shutterstock.com/image-vector/light-grey-medical-background-corona-260nw-1703862625.jpg)"}} ></div>

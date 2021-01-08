@@ -15,7 +15,7 @@ export default function Hc4() {
                 <Timg/>
                 <Timg/>
             </div>
-            <div  className="parallex" style={{zIndex:"-10",backgroundImage:"url(https://www.Techplacita.com/images/covid-images/Challenges-and-Response-.jpg)"}}></div>
+            <div  className="parallex" style={{zIndex:"-10",backgroundImage:"url(https://www.intelliswift.com/images/covid-images/Challenges-and-Response-.jpg)"}}></div>
             
         </div>
     )
