@@ -26,7 +26,7 @@ export default function NavBar() {
                     <div className="navbar-nav" style={{fontWeight:'600',width:'100%',display:'flex',justifyContent:"flex-end"}}>
                        <Link id="ink" to="/techplacita" style={{color:"inherit"}}> <a id="nav" className="nav-item nav-link active"  style={{color:'inherit'}}>Home <span className="sr-only">(current)</span></a></Link>
                         <Link id="ink" to="/techplacita/Services" style={{color:"inherit"}}><a id="nav" className="nav-item nav-link" style={{color:'inherit'}} >Servics</a></Link>
-                       
+                        <Link id="ink" to="/techplacita/Home2" style={{color:"inherit"}}><a id="nav" className="nav-item nav-link" style={{color:'inherit'}} >Home2</a></Link>
                         <Link id="ink" to="/techplacita/Contact" style={{color:"inherit"}}><a id="nav" className="nav-item nav-link" style={{color:'inherit'}} >ContactUs</a> </Link>
                         <Link id="ink" to="/techplacita/Aboutus" style={{color:"inherit"}}><a id="nav" className="nav-item nav-link" style={{color:'inherit'}} >AboutUs</a></Link>
                     </div>

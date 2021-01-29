@@ -11,7 +11,7 @@ export default function Service(){
 		<div style={{position:"relative",overflow:"hidden"}}>
 			
 			
-				<div style={{zIndex:"-2",width:"100%",height:"88vh",background:"url(https://www.ascendas-reit.com/en/-/media/eeb9c6f489b849039f4074c3642ed745.jpg) no-repeat center ",backgroundSize:"cover",paddingTop:"150px",position:"relative"}}>
+				<div style={{zIndex:"-2",width:"100%",height:"70vh",background:"url(https://www.ascendas-reit.com/en/-/media/eeb9c6f489b849039f4074c3642ed745.jpg) no-repeat center ",backgroundSize:"cover",paddingTop:"150px",position:"relative"}}>
 					<div style={{zIndex:"-1",top:"0",bottom:'0',left:'0',right:'0',position:"absolute",backgroundColor:"rgba(100,47,130,0.7)",}}></div>
 					<Fade>
 					<h1 style={{textAlign:"center",color:"white",zIndex:"3"}}>Managed IT Services You Can Trust</h1>
@@ -22,12 +22,12 @@ export default function Service(){
 				
 			
 			
-			<div style={{top:"84vh",position:"absolute",display:"flex",flexWrap:"wrap",flexDirection:"row",width:"90%",justifyContent:"space-between"}}>
+			<div style={{top:"66vh",position:"absolute",display:"flex",flexWrap:"wrap",flexDirection:"row",width:"90%",justifyContent:"space-between"}}>
 				<RoundButton text="getfreequot" backgroundImage="linear-gradient(to right,white ,purple)" maxWidth="700px" width="700px" height="70px" borderTopLeftRadius="0px" flexDirection="row" borderBottomLeftRadius="0" justifyContent="flex-end" marginBottom="10px"/>
 				<RoundButton text="getfreequot" backgroundColor="purple" width="200px" height="70px" marginBottom="10px"/>
 				<RoundButton text="getfreequot" backgroundColor="#d857ff" width="200px" height="70px" marginBottom="10px"/>
 			</div>
-			<div style={{alignItems:"center",justifyContent:"center",display:"flex",height:"50vh",marginTop:"11vh"}}>
+			<div id="whatwedo" style={{alignItems:"center",justifyContent:"center",display:"flex",height:"50vh",marginTop:"7vh"}}>
 				<h1 style={{textShadow:"5px 5px rgba(0,0,0,0.1)",}}>What We Do</h1>
 			</div>
 			<div style={{width:"85%",margin:"auto",display:"flex",flexWrap:"wrap",justifyContent:"space-around"}}>

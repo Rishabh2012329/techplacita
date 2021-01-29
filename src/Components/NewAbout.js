@@ -9,8 +9,8 @@ export default function NewAbout({bc,ic,}) {
                 <h1 style={{color:"#424a4f",fontWeight:"300",marginBottom:"20px"}}>Our founding</h1>
                 <div style={{maxWidth:"500px"}}>Moz was founded by Rand Fishkin and Gillian Muessig in 2004. It was called SEOmoz, and started as a blog and an online community where some of the world's first SEO experts shared their research and ideas. We launched the Beginner's Guide to SEO and our first Search Ranking Factors study, and that hub of industry expertise transformed into a small consulting firm and led us to create some of our first SEO tools.</div>
             </div>
-            <div style={{top:"-15px",margin:"auto",position:"absolute",width:"100%",display:"flex",justifyContent:"center"}}>
-                <AiFillCaretDown style={{color:"white",fontSize:"50px",}}/>
+            <div id="downpos" style={{top:"-15px",margin:"auto",position:"absolute",width:"100%",display:"flex",justifyContent:"center"}}>
+                <AiFillCaretDown id="down" style={{color:"white",fontSize:"50px",}}/>
             </div>
         </div>
     )

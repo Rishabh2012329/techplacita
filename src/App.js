@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Layout/Header'
 import NavBar from './Layout/NavBar'
 import Home from './Components/Home'
+import Home2 from './Components/Home2'
 import Footer from './Layout/Footer'
 import Contact from './Components/Contact'
 import Aboutus from './Components/Aboutus'
@@ -28,6 +29,9 @@ function App() {
 	 <Switch>
           <Route path="/techplacita/aboutus">
             <Aboutus />
+          </Route>
+          <Route path="/techplacita/Home2">
+            <Home2 />
           </Route>
           <Route path="/techplacita/Contact">
             <Contact />
